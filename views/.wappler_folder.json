@@ -1,0 +1,130 @@
+{
+  "index.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "about.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "berkshire_senior_tv.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "caregiver_support.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "Contacts.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "donation.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "employment.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "events.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "faq.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "home_care_service.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "information_for_providers.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "information_referral.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "leadership.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "money_management.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "news.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "notice_of_privacy_practices.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "nutrition.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "options_counseling.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "payment.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "photogallery.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "senior_employment.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "service_areas.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "services.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "shine.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "subgrants.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "supportive_housing_programs.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "testimonial.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "transportation.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "long_term_ombudsman_program.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "volunteer_program.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "volunteer_opportunities.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "emhot.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  }
+}

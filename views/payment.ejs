@@ -1,0 +1,182 @@
+<!-- Wappler include head-page="layouts/main" is="dmx-app" id="payment" appConnect="local" bootstrap5="local" fontawesome_4="local" jquery_slim_35="local" moment_2="local" components="{dmxBootstrap5Navigation:{}}" -->
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+            <h2 class="style123">Payment</h2>
+        </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="services" class="services section-bg">
+        <div class="container">
+
+
+
+        </div>
+    </section><!-- End Services Section -->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div data-aos="fade-up" class="section-title">
+                <h2 class="style66">Pay your client invoice!</h2>
+                <p>This service allows you to pay your
+                    Elder Services Co-Payment Invoice</p>
+            </div>
+
+            <div data-aos="fade-up" class="card text-center">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/payment.php#paymentdetails" role="tab" aria-controls="paymentdetails" aria-selected="true" dmx-on:click="var1.setValue(1)">PAYMENT DETAILS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/payment.php#clientdetails" role="tab" aria-controls="clientdetails" aria-selected="false" dmx-on:click="var1.setValue(2)">CLIENT DETAILS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/payment.php#loginuser" role="tab" aria-controls="loginuser" aria-selected="false" dmx-on:click="var1.setValue(3)">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="tab-pane" id="paymentdetails" dmx-show="var1.value == 1">
+                        <h5 class="card-title">PAYMENT DETAILS</h5>
+                        <p class="card-text">.....</p>
+                        <div data-aos="fade-up" class="row justify-content-center style67" data-aos-delay="300">
+                            <div class="col-xl-9 col-lg-12 mt-4">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <input type="text" class="form-control" name="subject" id="subject" required>
+                                    </div>
+                                    <div class="row style129">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  </div> -->
+                                    <div class="my-3">
+                                        <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                    </div>
+                                    <div class="text-center"><button type="submit">Submit</button></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" aria-labelledby="clientdetails-tab" id="clientdetails" dmx-show="var1.value == 2">
+                        <h5 class="card-title">CLIENT DETAILS</h5>
+                        <p class="card-text">....</p>
+                        <div data-aos="fade-up" class="row justify-content-center style67" data-aos-delay="300">
+                            <div class="col-xl-9 col-lg-12 mt-4">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                    </div>
+                                    <div class="row style129">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  </div> -->
+                                    <div class="my-3">
+                                        <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                    </div>
+                                    <div class="text-center"><button type="submit">Send Message</button></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-pane" aria-labelledby="loginuser-tab" id="loginuser" dmx-show="var1.value == 3">
+                        <h5 class="card-title">LOGIN DETAILS</h5>
+                        <p class="card-text">....</p>
+                        <div data-aos="fade-up" class="row justify-content-center style67" data-aos-delay="300">
+                            <div class="col-xl-9 col-lg-12 mt-4">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                    </div>
+                                    <div class="row style129">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  </div> -->
+                                    <div class="my-3">
+                                        <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                    </div>
+                                    <div class="text-center"><button type="submit">Send Message</button></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+<meta name="ac:route" content="/payment">

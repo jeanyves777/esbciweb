@@ -1,0 +1,75 @@
+{
+  "projectName": "esbci_website",
+  "routingHandler": "node",
+  "designFramework": "bootstrap5",
+  "hostingType": "docker",
+  "projectServerModel": "node",
+  "useRouting": true,
+  "addBase": true,
+  "webRootFolder": "/public",
+  "targets": [
+    {
+      "name": "Development",
+      "remoteURL": "http://localhost:8100",
+      "webServerPort": 8100,
+      "webServerLang": "node",
+      "targetType": "docker",
+      "webServer": "node",
+      "NodeVersion": "12",
+      "NodeOS": "buster",
+      "NodeImageType": "slim",
+      "webLoggingMaxFiles": "5",
+      "webLoggingMaxFileSize": "10m",
+      "dockerTimezone": "Etc/UTC"
+    },
+    {
+      "name": "esbci_remote",
+      "remoteURL": "http://147.182.128.124",
+      "webServerPort": 80,
+      "webServerLang": "node",
+      "targetType": "docker",
+      "webServer": "node",
+      "NodeVersion": "12",
+      "NodeOS": "buster",
+      "NodeImageType": "slim",
+      "webLoggingMaxFiles": "5",
+      "webLoggingMaxFileSize": "10m",
+      "dockerHost": "147.182.128.124",
+      "dockerPort": 2376,
+      "dockerUseTLS": true,
+      "dockerCertFolder": "~/.docker/machine/machines/esbci-web-dev",
+      "usage": "production",
+      "dockerType": "remote",
+      "dockerTimezone": "Etc/UTC",
+      "dockerMachineName": "esbci-web-dev",
+      "dockerProjectName": "esbci_website__esbci_remote"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "appConnect",
+      "type": "local"
+    },
+    {
+      "name": "bootstrap5",
+      "type": "local"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "local"
+    },
+    {
+      "name": "jquery_slim_35",
+      "type": "local"
+    },
+    {
+      "name": "moment_2",
+      "type": "local"
+    }
+  ],
+  "projectLinksType": "site",
+  "activeTarget": "Development",
+  "styleFile": "/assets/css/style.css",
+  "assetsFolder": "/assets",
+  "activeGitRemote": "esbciweb"
+}

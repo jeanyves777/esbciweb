@@ -1,0 +1,463 @@
+<!doctype html>
+<html>
+
+<head>
+    <dmx-preloader id="preloader1" spinner="foldingCube" color="#128303"></dmx-preloader>
+    <base href="/">
+    <!-- End Breadcrumbs -->
+    <header id="header" class="d-flex align-items-center style293 container-fluid sticky-top">
+
+        <div class="container-fluid">
+            <section class="d-flex align-items-center container-fluid style295" id="topbar">
+                <div class="container">
+                    <div class="contact-info d-flex align-items-center justify-content-start style294">
+                        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:esbci@esbci.org">esbci@esbci.org</a></i>
+                        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 (413) 499-0524</span></i>
+                    </div>
+                </div>
+                <div class="cta d-none d-md-flex align-items-center justify-content-end text-right style292 pr-2">
+                    <!-- GTranslate: https://gtranslate.io/ -->
+
+                    <br><select onchange="doGTranslate(this);">
+                        <option value="">Select Language</option>
+                        <option value="en|en">English</option>
+                        <option value="en|af">Afrikaans</option>
+                        <option value="en|sq">Albanian</option>
+                        <option value="en|ar">Arabic</option>
+                        <option value="en|hy">Armenian</option>
+                        <option value="en|az">Azerbaijani</option>
+                        <option value="en|eu">Basque</option>
+                        <option value="en|be">Belarusian</option>
+                        <option value="en|bg">Bulgarian</option>
+                        <option value="en|ca">Catalan</option>
+                        <option value="en|zh-CN">Chinese (Simplified)</option>
+                        <option value="en|zh-TW">Chinese (Traditional)</option>
+                        <option value="en|hr">Croatian</option>
+                        <option value="en|cs">Czech</option>
+                        <option value="en|da">Danish</option>
+                        <option value="en|nl">Dutch</option>
+                        <option value="en|en">English</option>
+                        <option value="en|et">Estonian</option>
+                        <option value="en|tl">Filipino</option>
+                        <option value="en|fi">Finnish</option>
+                        <option value="en|fr">French</option>
+                        <option value="en|gl">Galician</option>
+                        <option value="en|ka">Georgian</option>
+                        <option value="en|de">German</option>
+                        <option value="en|el">Greek</option>
+                        <option value="en|ht">Haitian Creole</option>
+                        <option value="en|iw">Hebrew</option>
+                        <option value="en|hi">Hindi</option>
+                        <option value="en|hu">Hungarian</option>
+                        <option value="en|is">Icelandic</option>
+                        <option value="en|id">Indonesian</option>
+                        <option value="en|ga">Irish</option>
+                        <option value="en|it">Italian</option>
+                        <option value="en|ja">Japanese</option>
+                        <option value="en|ko">Korean</option>
+                        <option value="en|lv">Latvian</option>
+                        <option value="en|lt">Lithuanian</option>
+                        <option value="en|mk">Macedonian</option>
+                        <option value="en|ms">Malay</option>
+                        <option value="en|mt">Maltese</option>
+                        <option value="en|no">Norwegian</option>
+                        <option value="en|fa">Persian</option>
+                        <option value="en|pl">Polish</option>
+                        <option value="en|pt">Portuguese</option>
+                        <option value="en|ro">Romanian</option>
+                        <option value="en|ru">Russian</option>
+                        <option value="en|sr">Serbian</option>
+                        <option value="en|sk">Slovak</option>
+                        <option value="en|sl">Slovenian</option>
+                        <option value="en|es">Spanish</option>
+                        <option value="en|sw">Swahili</option>
+                        <option value="en|sv">Swedish</option>
+                        <option value="en|th">Thai</option>
+                        <option value="en|tr">Turkish</option>
+                        <option value="en|uk">Ukrainian</option>
+                        <option value="en|ur">Urdu</option>
+                        <option value="en|vi">Vietnamese</option>
+                        <option value="en|cy">Welsh</option>
+                        <option value="en|yi">Yiddish</option>
+                    </select>
+                    <div id="google_translate_element2"></div>
+
+                </div>
+
+            </section>
+            <div class="row justify-content-center row-cols-12">
+                <!-- <div class="pl-5 col-xl-2">
+                    
+                    <img class="image img-fluid" src="/assets/img/logo/150.png">
+                </div> -->
+
+                <div class="col-9 d-flex justify-content-center style262">
+                    <nav id="navbar" class="navbar justify-content-center text-center navbar-expand justify-content-xl-center w-auto">
+                        <ul>
+                            <li class="style300"><a class="nav-link scrollto style299" href="/" internal>Home</a></li>
+
+                            <li class="dropdown style300"><a href="/about" class="style299" internal>
+                                    <spam>About Us</spam>
+                                </a>
+                                <ul>
+                                    <li><a class="nav-link scrollto" href="/about">About Us</a></li>
+                                    <li><a href="/leadership">Leadership</a></li>
+                                    <li><a href="/service_areas">Service Area</a></li>
+                                    <li><a href="/faq">Frequently Asked Questions</a></li>
+                                    <li><a href="/notice_of_privacy_practices">Notice of Privacy Practices</a></li>
+                                    <li><a href="/testimonial">Testimonials</a></li>
+                                    <li><a href="/photogallery">Photo Gallery</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown style300"><a href="#" class="style299" internal>
+                                    <spam>Resources</spam>
+                                </a>
+                                <ul>
+
+                                    <li><a href="/berkshire_senior_tv">Berkshire Senior TV </a></li>
+
+                                    <li><a href="/information_for_providers">Information for Providers </a></li>
+
+                                    <li><a href="https://www.va.gov/">Veteran Services</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown style300"><a href="/services" class="style299" internal><span>Programs & Services</span> </a>
+                                <ul>
+
+                                    <li><a href="/information_referral">INFORMATION & REFERRAL</a></li>
+                                    <li><a href="/home_care_service">HOME CARE SERVICES</a></li>
+                                    <li><a href="/nutrition">NUTRITION PROGRAMS</a></li>
+                                    <li><a href="/shine">SHINE PROGRAM</a></li>
+                                    <li><a href="https://www.mass.gov/how-to/report-elder-abuse">PROTECTIVE SERVICES</a></li>
+                                    <li><a href="/caregiver_support">CAREGIVER SUPPORT</a></li>
+                                    <li><a href="/supportive_housing_programs">HOUSING PROGRAMS</a></li>
+                                    <li><a href="/subgrants">SUBGRANTS</a></li>
+                                    <li><a href="/transportation">TRANSPORTATION</a></li>
+                                    <li><a href="/money_management">MONEY MANAGEMENT PROGRAM</a></li>
+                                    <li><a href="/senior_employment">SENIOR EMPLOYMENT</a></li>
+                                    <li><a href="/options_counseling">OPTIONS COUNSELING</a></li>
+                                    <li><a href="/volunteer_program">VOLUNTEER PROGRAM</a></li>
+                                    <li><a href="/emhot">EMHOT</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li class="dropdown"><a href="/payment.php" class="style259"><span>Payments</span> </a>
+                                <ul>
+                                    <li><a href="/payment.php">Payment</a></li>
+                                    <li><a href="/donation.php">Donation</a></li>
+                                </ul>
+                            </li> -->
+                            <li class="dropdown style300"><a href="#" class="style299" internal><span>Events</span> </a>
+                                <ul>
+                                    <li><a href="/news">News</a></li>
+                                    <li><a href="/events">Events</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown style300"><a href="#" class="style299" internal>Join Us </a>
+                                <ul>
+                                    <li><a href="/employment">Employment Opportunities</a></li>
+                                    <li><a href="/volunteer_opportunities">Volunteers</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown style300"><a href="#" class="style299" internal>Contact </a>
+                                <ul>
+                                    <li><a href="/Contacts">Directions </a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <i class="bi bi-list mobile-nav-toggle"></i>
+
+                    </nav>
+
+                </div>
+
+
+                <div class="row-fluid">
+
+                </div>
+
+
+
+
+
+
+                <div class="logo">
+
+
+                </div>
+            </div>
+        </div>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ2D6YX8P4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                
+                  gtag('config', 'G-QJ2D6YX8P4');
+        </script>
+
+
+
+    </header>
+    <title>Untitled Document</title>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="/js/moment.js/2/moment.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/bootstrap/5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/fontawesome4/css/font-awesome.min.css" />
+
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="/dmxAppConnect/dmxGoogleMaps/dmxGoogleMaps.js" defer=""></script>
+
+    <!-- Vendor JS Files -->
+    <script src="/assets/vendor/aos/aos.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/assets/vendor/php-email-form/validate.js"></script>
+    <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript" src="/assets/js/js_wz_jsgraphics.js"></script>
+    <script type="text/javascript" src="/assets/js/mapper.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="/assets/js/main.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    <meta name="ac:route" content="/">
+    <base href="/">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Elder Services Of Berkshire County</title>
+    <meta content="Elder Services is a non-profit organization providing a wide variety of services to the elders of Berkshire County, Massachusetts and their families. Proudly Promoting Elder Independence since 1974" name="description">
+    <meta content="Elder Services " name="keywords">
+
+    <!-- Favicons -->
+    <link href="/assets/img/esbcilogo.png" rel="icon">
+    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+
+    <!-- =======================================================
+      * Template Name: Flexor - v4.3.0
+      * Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
+      * Author: BootstrapMade.com
+      * License: https://bootstrapmade.com/license/
+      ======================================================== -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" integrity="sha384-NUDU7Qr8dfscXBIhA0px/bRl3cgNrOT9l/WPm15DzH5xnBs4fL4vgRiXURs98/ID" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+</head>
+
+<body is="dmx-app" id="main">
+
+
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+    <script async src="https://cse.google.com/cse.js?cx=61509034e297c1f45"></script>
+
+
+    <div is="dmx-view" id="content">
+        <%- await include(content, locals); %>
+    </div>
+
+    <!-- Wappler include head-page="" appConnect="local" is="dmx-app" bootstrap_icons="cdn" fontawesome_4="cdn" jquery_slim_35="cdn" bootstrap4="cdn" components="{dmxBootstrap4Navigation:{},dmxPreloader:{},dmxRouting:{}}" -->
+    <footer id="footer">
+        <hr class="style17">
+        <div class="footer-top">
+            <div class="container-fluid style257">
+                <div class="row justify-content-center">
+
+                    <div class="col-md-6 footer-contact col-lg-3">
+                        <!-- <h3>Flexor</h3> -->
+                        <img src="/assets/img/logo/new36361.png" class="style18 img-fluid w-50">
+
+                        <div class="icon-box style26" data-aos="fade-up">
+                            <a class="icon style27">877 South Street, Suite 4E,
+                                Pittsfield, MA 01201</a>
+                            <br>
+                            <hr class="style31">
+                            <div class="row justify-content-xl-center">
+                                <div class="col-xl col-xl-4"><img src="/assets/img/E3OwZOgXEAgkGCw.jpg"></div>
+                                <div class="col-xl col-xl-4">
+                                    <a><img src="/assets/img/clients/united010.png"></a>
+                                </div>
+                                <div class="col-xl col-xl-4">
+                                    <a><img src="/assets/img/clients/williams1.png"></a>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-lg-2 col-md-6 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                </ul>
+              </div> -->
+
+                    <div class="col-md-6 footer-links col-lg-3">
+                        <h4 class="style21 mb-n3">Contact Us</h4>
+                        <hr class="style28">
+                        <div class="icon-box style24" data-aos="fade-up">
+                            <a class="icon style32"><i class="bi bi-telephone-inbound">&nbsp; </i>1-(413) 499-0524 |&nbsp;Main</a>
+                            <br>
+                            <a class="icon style33"><i class="bx bx-fingerprint">&nbsp; </i>1-(800) 544-5242 |&nbsp;Toll Free</a>
+                            <br>
+                            <a class="icon style34"><i class="bx bx-fingerprint">&nbsp; </i>1-(413) 442-6443 |&nbsp;Fax</a>
+                            <br>
+                            <a class="icon style35"><i class="bx bx-phone">&nbsp; </i>1-(413) 499-9764 |&nbsp;TTY</a>
+                            <br>
+                            <a class="icon style36" href="mailto:esbci@esbci.org"><i class="bi bi-envelope">&nbsp; </i>Esbci@esbci.org</a>
+                        </div><br>
+                    </div>
+
+                    <div class="col-md-6 footer-newsletter col-lg-3">
+
+                        <h4 class="mb-n3">Elder Abuse Hotline</h4>
+                        <hr class="style29">
+                        <div class="icon-box style24" data-aos="fade-up">
+                            <a class="icon style37"><i class="bi bi-telephone-inbound">&nbsp; </i>1-800-922-2275</a>
+                            <br>
+                            <a class="icon style38" href="https://www.mass.gov/how-to/report-elder-abuse"><i class="bi bi-link-45deg">&nbsp; </i>File a Protective Services Report</a>
+                        </div><br>
+
+                        <h4 class="mb-n3">Mass Options</h4>
+                        <hr class="style30">
+                        <div class="row">
+                            <div class="col-xl-7"><a class="icon style39"><i class="bx bx-phone"></i>844-422-MASS</a><br>
+                                <a class="icon style40" href="https://www.massoptions.org/massoptions/"><i class="bi bi-link-45deg">&nbsp; </i>Massoptions.org</a>
+                            </div>
+                            <div class="col-xl-5 mt-xl-n2">
+                                <a class="w-auto h-auto"><img src="/assets/img/clients/ageinfo.png" class="align-self-xl-center"></a>
+                            </div>
+
+                        </div>
+                        <div class="icon-box style25" data-aos="fade-up">
+
+
+                            <br>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Wappler include head-page="../index.php" appConnect="local" is="dmx-app" bootstrap_icons="cdn" fontawesome_4="cdn" jquery_slim_35="cdn" bootstrap4="cdn" -->
+    <footer id="footer2" class="text-center container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-6 text-left">
+                        <div class="copyright style41">
+                            © Copyright 2021 - <strong><span>Elder Services Of Berkshire County, inc</span></strong>. All Rights Reserved
+                        </div>
+                    </div>
+                    <div class="col style247 d-flex justify-content-end">
+                        <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/ -->
+            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        </div>
+        <!-- <div class="d-lg-flex py-4 style5 container">
+            <div class=" me-lg-auto text-lg-start justify-content-center row-cols-12">
+                <div class=" text-center">
+                    <div class="copyright style41">
+                        © Copyright 2021 - <strong><span>Elder Services Of Berkshire County, inc</span></strong>. All Rights Reserved
+                    </div>
+    
+                </div>
+            </div>
+    
+        </div> -->
+    </footer>
+
+    <!-- <a href="header.php#navbar" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
+
+    <script>
+        (function(d){
+             var s = d.createElement("script");
+             /* uncomment the following line to override default position*/
+             /* s.setAttribute("data-position", 3);*/
+             /* uncomment the following line to override default size (values: small, large)*/
+             /* s.setAttribute("data-size", "small");*/
+             /* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+             /* s.setAttribute("data-language", "language");*/
+             /* uncomment the following line to override color set via widget (e.g., #053f67)*/
+             /* s.setAttribute("data-color", "#053e67");*/
+             /* uncomment the following line to override type set via widget (1=person, 2=chair, 3=eye, 4=text)*/
+             /* s.setAttribute("data-type", "1");*/
+             /* s.setAttribute("data-statement_text:", "Our Accessibility Statement");*/
+             /* s.setAttribute("data-statement_url", "http://www.example.com/accessibility")";*/
+             /* uncomment the following line to override support on mobile devices*/
+             /* s.setAttribute("data-mobile", true);*/
+             /* uncomment the following line to set custom trigger action for accessibility menu*/
+             /* s.setAttribute("data-trigger", "triggerId")*/
+             s.setAttribute("data-account", "GsV1axJVEu");
+             s.setAttribute("src", "https://cdn.userway.org/widget.js");
+             (d.body || d.head).appendChild(s);})(document)
+    </script>
+    <noscript>
+        Please ensure Javascript is enabled for purposes of
+        <a href="https://userway.org">website accessibility</a>
+    </noscript>
+    <script src="/bootstrap/5/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

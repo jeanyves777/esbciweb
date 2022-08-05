@@ -1,0 +1,172 @@
+<!-- Wappler include head-page="layouts/main" bootstrap5="local" fontawesome_4="local" jquery_slim_35="local" moment_2="local" is="dmx-app" id="donation" appConnect="local" -->
+
+<div class="modal fade" id="modal_explanation" is="dmx-bs4-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title text-success font-weight-bold">Explanation of Support Designations</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>When you choose a designation of "Greatest Service Need," Elder Services will choose the fund most in need at that time. You may also choose where you would like your donation designated from the list here:</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal_acceptable_donations" is="dmx-bs4-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title text-success font-weight-bolder">What kind of non-cash items are Acceptable?</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Please contact iDonate at <b>1(877)-89-SHARE</b> (877-897-4273) with questions about whether specific donations can be accepted.&nbsp;</p>
+
+                <ul class="list-group">
+
+                    <a href="javascript:void();" class="text-decoration: none;">
+                        <li class="list-group-item" dmx-on:click="collapse_acceptable_donation.toggle()">
+                            <h5 class="font-weight-bolder"><i class="bi-bookmark-check-fill style276"></i> Always Accepted&nbsp;</h5>
+                        </li>
+                    </a>
+
+                    <div class="collapse" id="collapse_acceptable_donation" is="dmx-bs4-collapse" show="true">
+                        <li class="list-group-item">&nbsp;Passenger vehicles (All vehicles, running or not, are accepted)</li>
+                        <li class="list-group-item">Newer smartphones</li>
+                        <li class="list-group-item">Grain commodities</li>
+                        <li class="list-group-item">Diamond or precious metal jewelry</li>
+                        <li class="list-group-item">Gift cards (minimum balance of $15; must be an accepted company)</li>
+                    </div>
+                </ul>
+                <ul class="list-group">
+
+                    <a href="javascript:void();" class="text-decoration: none;" dmx-on:click="collapse_typically_accepted.toggle()">
+                        <li class="list-group-item">
+                            <h5 class="font-weight-bolder"><i class="bi-bookmark-check-fill style276"></i>&nbsp;Typically Accepted&nbsp;</h5>
+                        </li>
+                    </a>
+
+                    <div class="collapse" id="collapse_typically_accepted" is="dmx-bs4-collapse">
+                        <li class="list-group-item">Small, light, recent-model electronics</li>
+                        <li class="list-group-item">Large quantities of business inventory overstock</li>
+                        <li class="list-group-item">Motorcycles</li>
+                    </div>
+                </ul>
+                <ul class="list-group">
+
+                    <a href="javascript:void();" class="text-decoration: none;" dmx-on:click="collapse_accepted_oncasebycase.toggle()">
+                        <li class="list-group-item">
+                            <h5 class="font-weight-bolder"><i class="bi-bookmark-check-fill style276"></i>&nbsp;Accepted On Case-by-Case Basis&nbsp;&nbsp;</h5>
+                        </li>
+                    </a>
+
+                    <div class="collapse" id="collapse_accepted_oncasebycase" is="dmx-bs4-collapse">
+                        <li class="list-group-item">Boats, RVs, ATVs, and other recreational vehicles</li>
+                        <li class="list-group-item">&nbsp;Artwork (usually must be original works by well-known artists)</li>
+                        <li class="list-group-item">Real estate (minimum value of $50,000 and no liens)</li>
+                        <li class="list-group-item">&nbsp;Business interest</li>
+                        <li class="list-group-item">&nbsp;Other donations (must have actual resale values of $250+)</li>
+                    </div>
+                </ul>
+                <ul class="list-group">
+
+                    <a href="javascript:void();" class="text-decoration: none;" dmx-on:click="collapse_not_accepted.toggle()">
+                        <li class="list-group-item">
+                            <h5 class="font-weight-bolder"><i class="bi-file-excel-fill style278"></i>&nbsp;Not Accepted&nbsp; &nbsp;</h5>
+                        </li>
+                    </a>
+
+                    <div class="collapse" id="collapse_not_accepted" is="dmx-bs4-collapse">
+                        <li class="list-group-item">Pianos (and most other musical instruments)</li>
+                        <li class="list-group-item">Outdated medical equipment</li>
+                        <li class="list-group-item">&nbsp;Furniture and exercise equipment</li>
+                        <li class="list-group-item">Large electronics (including most printers, scanners, desktop computers, monitors, Windows XP laptops, VCRs and TVs)</li>
+                        <li class="list-group-item">&nbsp;Other donations (must have actual resale values of $250+)</li>
+                        <li class="list-group-item">&nbsp;Timeshares and cemetery plots</li>
+                        <li class="list-group-item">&nbsp; Firearms (iDonate Foundation cannot take ownership for legal reasons; however, we are happy to provide referrals to sellers)</li>
+                        <li class="list-group-item">Anything you would see in a thrift store (i.e. books, apparel, housewares)</li>
+                        <li class="list-group-item">Anything that may be considered objectionable in the discretion of iDonate Foundation (including pornographic or illegal items)</li>
+                    </div>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+            <h2 class="style123">DONATION</h2>
+        </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Values Section ======= -->
+    <!-- End Services Section -->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact style275 container">
+        <div class="container-fluid">
+
+            <div data-aos="fade-up" class="section-title">
+                <h2 class="style66">Support Elder Services</h2>
+                <p>The mission of Elder Services of Berkshire County, Inc. is to provide Berkshire elders, caregivers, and individuals with disabilities the opportunity to live with dignity, independence, and self-determination, and to achieve
+                    the highest
+                    possible quality of life. Elder Services' primary funding streams are sometimes insufficient to adequately support our many programs for seniors.&nbsp; We rely upon generous donations from businesses, organizations, and
+                    individuals like
+                    you to fill in the funding gaps and be able to serve all eligible elders who need our help.</p>
+            </div>
+            <div data-aos="fade-up">
+                <h5 class="style76">Elder Services is now able to receive cash and noncash gifts such as cars, boats, jewelry, gift cards, electronics and more!</h5>
+            </div>
+
+            <div data-aos="fade-up">
+                <div data-idonate-embed='a7223093-5efb-4631-a247-549986b02b1e'>
+                </div>
+                <script src='https://embed.idonate.com/idonate.js'></script>
+            </div>
+
+            <div data-aos="fade-up">
+                <p>Please contact iDonate at <strong>1(877)-89-SHARE</strong> (877-897-4273) with questions about whether specific donations can be accepted. </p>
+            </div>
+        </div>
+    </section><!-- End Contact Section -->
+
+    <section>
+        <div class="container">
+            <div data-aos="fade-up">
+                <div class="style95">
+                    <button class="btn style48 btn-success" data-toggle="modal" data-target="#modal_acceptable_donations"><i class="bi bi-box-arrow-up-right"></i> Acceptable Non-Cash Donations</button>
+                    <button type="submit" class="btn style48 btn-success" data-toggle="modal" data-target="#modal_explanation"><i class="bi bi-box-arrow-up-right"></i> Explanation of Gift Designations</button>
+                    <button type="submit" class="btn style48 btn-success"><i class="bi bi-box-arrow-up-right"></i> iDonate Terms and Conditions</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button> -->
+
+
+
+
+    </section>
+
+
+</main>
+<!-- End #main -->
+
+<meta name="ac:route" content="/donation">

@@ -1,0 +1,164 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "page": "index",
+      "layout": "main"
+    },
+    {
+      "path": "/about",
+      "page": "about",
+      "layout": "main"
+    },
+    {
+      "path": "/berkshire_senior_tv",
+      "page": "berkshire_senior_tv",
+      "layout": "main"
+    },
+    {
+      "path": "/caregiver_support",
+      "page": "caregiver_support",
+      "layout": "main"
+    },
+    {
+      "path": "/Contacts",
+      "page": "Contacts",
+      "layout": "main"
+    },
+    {
+      "path": "/donation",
+      "page": "donation",
+      "layout": "main"
+    },
+    {
+      "path": "/employment",
+      "page": "employment",
+      "layout": "main"
+    },
+    {
+      "path": "/events",
+      "page": "events",
+      "layout": "main"
+    },
+    {
+      "path": "/faq",
+      "page": "faq",
+      "layout": "main"
+    },
+    {
+      "path": "/home_care_service",
+      "page": "home_care_service",
+      "layout": "main"
+    },
+    {
+      "path": "/information_for_providers",
+      "page": "information_for_providers",
+      "layout": "main"
+    },
+    {
+      "path": "/information_referral",
+      "page": "information_referral",
+      "layout": "main"
+    },
+    {
+      "path": "/leadership",
+      "page": "leadership",
+      "layout": "main"
+    },
+    {
+      "path": "/money_management",
+      "page": "money_management",
+      "layout": "main"
+    },
+    {
+      "path": "/news",
+      "page": "news",
+      "layout": "main"
+    },
+    {
+      "path": "/notice_of_privacy_practices",
+      "page": "notice_of_privacy_practices",
+      "layout": "main"
+    },
+    {
+      "path": "/nutrition",
+      "page": "nutrition",
+      "layout": "main"
+    },
+    {
+      "path": "/options_counseling",
+      "page": "options_counseling",
+      "layout": "main"
+    },
+    {
+      "path": "/payment",
+      "page": "payment",
+      "layout": "main"
+    },
+    {
+      "path": "/photogallery",
+      "page": "photogallery",
+      "layout": "main"
+    },
+    {
+      "path": "/senior_employment",
+      "page": "senior_employment",
+      "layout": "main"
+    },
+    {
+      "path": "/service_areas",
+      "page": "service_areas",
+      "layout": "main"
+    },
+    {
+      "path": "/services",
+      "page": "services",
+      "layout": "main"
+    },
+    {
+      "path": "/shine",
+      "page": "shine",
+      "layout": "main"
+    },
+    {
+      "path": "/subgrants",
+      "page": "subgrants",
+      "layout": "main"
+    },
+    {
+      "path": "/supportive_housing_programs",
+      "page": "supportive_housing_programs",
+      "layout": "main"
+    },
+    {
+      "path": "/testimonial",
+      "page": "testimonial",
+      "layout": "main"
+    },
+    {
+      "path": "/transportation",
+      "page": "transportation",
+      "layout": "main"
+    },
+    {
+      "path": "/volunteer_program",
+      "page": "volunteer_program",
+      "layout": "main"
+    },
+    {
+      "path": "/long_term_ombudsman_program",
+      "page": "long_term_ombudsman_program",
+      "layout": "main"
+    },
+    {
+      "path": "/volunteer_opportunities",
+      "page": "volunteer_opportunities",
+      "layout": "main"
+    },
+    {
+      "path": "/emhot",
+      "page": "emhot",
+      "layout": "main"
+    }
+  ]
+}
